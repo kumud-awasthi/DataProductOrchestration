@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=dataproductochestrator;AccountKey=CWfZiGKhTmNilKEvOWyEB+26ds1Sim0FOiIAw7H9JJAfqbF0ZhBubfPIEccC5dqTJk765/AB2pRc+ASt4j8ksg==;BlobEndpoint=https://dataproductochestrator.blob.core.windows.net/;TableEndpoint=https://dataproductochestrator.table.core.windows.net/;QueueEndpoint=https://dataproductochestrator.queue.core.windows.net/;FileEndpoint=https://dataproductochestrator.file.core.windows.net/",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "Dependencies": "dependency_a,dependency_b,dependency_c",
+    "SqlConnectionString": "Server=tcp:mysqlservercibc.database.windows.net,1433;Initial Catalog=EDGE_Orchestration;Persist Security Info=False;User ID=sqladmin;Password=AdminPassword123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "sqldb_connection": "Server=tcp:mysqlservercibc.database.windows.net,1433;Initial Catalog=EDGE_Orchestration;Persist Security Info=False;User ID=sqladmin;Password=AdminPassword123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}

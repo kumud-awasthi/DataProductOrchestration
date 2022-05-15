@@ -1,0 +1,21 @@
+{
+    data_product_dependencies: [
+    {id:"tsys",data-product-id: "com.cibc.pbb.cards.tsys", frequency:"daily"}
+    {id:"tsys",data-product-id: "com.cibc.pbb.cards.tsys", frequency:"daily"}
+    {id:"tsys",data-product-id: "com.cibc.pbb.cards.tsys", frequency:"daily"}
+    {id:"tsys",data-product-id: "com.cibc.pbb.cards.tsys", frequency:"daily"}
+    {id:"tsys",data-product-id: "com.cibc.pbb.cards.tsys", frequency:"daily"}
+    {id:"tsys",data-product-id: "com.cibc.pbb.cards.tsys", frequency:"daily"}
+]
+dependency-matrix : {
+      groups:[
+
+        {id:"ecif",include: ["ecif.ref","ecif.prod","ecif.svc-reg"]}
+      ]
+      conditions: [
+     "ecif & tsys & pos &visa"
+     "time(10:00) &ecif & (tsys|pos|visa)"
+
+      ]
+}
+}
